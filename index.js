@@ -15,9 +15,4 @@ function spreadLoveEmojis(input) {
     return result;
 }
 
-// Example usage
-const originalMessage = "fuck you motherfucker";
-const modifiedMessage = spreadLoveEmojis(originalMessage);
-console.log(modifiedMessage);
-
 module.exports = spreadLoveEmojis;
