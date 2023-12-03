@@ -1,12 +1,6 @@
 // List of curse words
-const curseWords = ['fuck', 'nigga', 'lowde'];
+const curseWords = ["fuck", "nigga", "lowde", /* Add more curse words here */];
 
-// Mapping of curse words to replacement emojis
-const emojiMap = {
-    'fuck': '❤️',
-    'nigga': '😄',
-    'lowde': '💘',
-    // Add more entries before this line
-};
+const emojiArray = ["❤️", "😄", "💘", /* Add more emojis here */];
 
-module.exports = { curseWords, emojiMap }
+module.exports = { curseWords, emojiArray }
